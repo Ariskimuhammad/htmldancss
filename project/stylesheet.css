@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html, body,
+  ul, ol, li,
+  h1, h2, h3, h4, h5, h6, p, div {
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    font-family: fantasy;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .clear {
+    clear: left;
+  }
+  
+  .container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  
+  .top-wrapper {    
+    padding: 188px 0 100px 0;
+    background-image: url(Gambar/1.jpg);
+    background-size: cover;
+    color: rgb(15, 49, 15);
+    text-align: left;
+	overflow:hidden;
+	
+  }
+  
+  .top-wrapper h1 {
+    animation: fade-in 4s ease-out;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+  }
+
+  @keyframes fade-in {
+
+    0% {
+        opacity: 0;
+        transform: translateX(-4rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+  }
+
+  .top-wrapper h2 {
+    animation: fade-in 4s ease-out;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+  }
+
+  @keyframes fade-in {
+
+    0% {
+        opacity: 0;
+        transform: translateX(-4rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+  }
+
+  .top-wrapper a {
+    border: 2px solid;
+    color: rgb(15, 49, 15);
+    display: inline-block;
+    padding: 20px 34px;
+    text-decoration: none;
+    transition: all 1.75s;
+    border-radius: 4px;
+    margin: 40px;
+  }
+
+  .top-wrapper a:hover {
+      background-color:rgb(15, 218, 76);
+      color: rgb(15, 49, 15);
+      transition: all 1.75s ease-out;
+  }
+  
+  
